@@ -1,0 +1,8 @@
+
+How is staging area different from working directory and the repository? What value do you think it offers?
+A: I think staging area is store files in ram / or cache then when commit happens it'll push files to repository.
+Repository is the place that stores all the files.
+Working directory is the current directory in the git that has its own files.
+
+Staging area's value:
+Improve performance, 
