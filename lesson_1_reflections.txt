@@ -1,0 +1,54 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+A: with initialization of the repository, i'd get .git file and also able to push the repo to the github (i think). 
+Because files can be tracked only after the repo initialized and can be checked through git.log command.
+
+---------------------------------------------------------------------------------------------------------
+
+Now that you have your workspace set up, what do you want to try using Git for?
+A: configuration seems not really worked as expected since i didn't installed sublime. However, i've learned good stuff. I'd like to learn add the files to repo and checking files out from repo.
+
+-------------------------------------------------------------------------------------------------------
+How might using version control make you more confident to make changes that could break something?
+A: Version control is very helpful in regards of this, I felt very confident because each commit can be viewable through git log command so that I can easily find out which commit break the application or which one introduce the bug. Hence, I wouldn't scared too much of breaking something.
+
+---------------------------------------------------------------------------------------------------- 
+
+How can you use the commands git log and git diff to view history of files?
+  A: using git log to view logs about the version changes and to find which one needs to be checked.
+     Using git diff to compare two different versions of the application and find out what are the changes, either insertions or deletions.
+
+
+
+-----------------------------------------------------------------------------------------------------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+
+Git:
+With one commit some related files that were changed saved at the same time which would be reflected on git log so that user can find 
+out when the changes were saved.
+Google Docs:
+Treating each file separately would have separate saving times but it might avoid some glitches (might be more reliable and garanteed). 
+
+--------------------------------------------------------------------
+diff in two versions helped me to find out typo which is 
+an important factor in a code that may cause the app 
+does not work which in computer terms called a bug
+This is also true using FC command in windows OS that can
+have same results.
+diff 1stfilename 2ndFileName
+FC firstFileName SecondFileName
+
+------------------------------------------------------ 
+How could having easy access to the entire history of a file make you more efficient programmer in the long term?
+
+This will help me to track on what i've changed by time.
+Each time if i have changed something I might forgot easily but
+by accessing the history of changing I would not and knowing what's
+changed and when, so that i can debug easily.
+
+-----------------------------------------------------------------
+
+manually commit gives a chance to decide when to commit so that it should not be too big or too small, and also avoids too much commits. Automatic commits, on the other hand, would commit whenever
+it's programmed to do so thus committing might be too frequent than
+desired or might be too big (sometimes) to commit.  
