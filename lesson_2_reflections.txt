@@ -1,4 +1,23 @@
 
+What are the pros and cons of git's automatic merging vs always doing merges manually?
+A: automatic merging will happen in a set time it is configured and always run without checking whether the changes are ready or not. Manual merge is done whenever the changes finished and ready to be merged.
+
+-------------------------------------------------------------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Merging two branches together would make it one branch and all changes will be included in the final branch, most of the time it's master branch.
+
+---------------------------------------------------------------------------
+How do the diagrams help you visualize the branch sturcture?
+A: Visually seeing the structure of the branch will stick in to my head and won't forget easily.It also let me to understand the structure clearly by knowing checkout the commit with commit id and checkout the branch difference. If checkout with commit id, it'll not creating a new branch and the changes can't be accessible by others. It also changes the tip of the branch.
+
+--------------------------------------------------------------------------
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-----------------------------------------------------------------------
+How can you use staging area to make sure you have one commit per logical change?
+A: It seems not easy sometimes since I have to commit a file. Therefore, whenever, I have a change which is logically big enough to commit, I'll save the file and commit it. And if there is more changes needed and they are not related to each other logically, i might fix one at a time, save it and commit it. (seems not a really good idea!!).
+
+-------------------------------------------------------------------------
 How is staging area different from working directory and the repository? What value do you think it offers?
 A: I think staging area is store files in ram / or cache then when commit happens it'll push files to repository.
 Repository is the place that stores all the files.
