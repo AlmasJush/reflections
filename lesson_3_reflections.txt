@@ -1,4 +1,9 @@
 
+How would you collaborate without using Gir or GitHub? What would be easier and what would be harder?
+A: Without using Git or GitHub, definitely, will use some other avaible version control tools and they would have advantages and drawbacks. GitHub is not really that hard once learn it with focus and it's kind of convenient if I work from home and other people also working from their home that it would give us a good tool to collaborate with each other without affecting .
+
+---------------------------------------------------------------------------
+
 What is the benefit of having a copy of the last known state of the remote stored locally?
 A:this way can't miss other people's changes and able to know if any changes made by others.
 
